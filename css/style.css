@@ -6,12 +6,26 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  /*background: url(../images/backgrounds/architecture.jpg) center no-repeat;*/
+  background-image: linear-gradient(to bottom right, rgba(101, 87, 87, 0.461), rgba(30, 144, 215, 0.783));
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
 }
+
+img{
+  width: 750px ; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*#grad{
+  background-image: linear-gradient(to the right, rgba(101, 87, 87, 0.461), rgba(94, 109, 118, 0.1)) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}*/
 
 .wrapper {
   margin: 0 auto;
@@ -20,6 +34,7 @@ body {
 }
 
 #content {
+  
   padding: 20px;
   background: rgba(255,255,255,.85);
 }
@@ -43,6 +58,7 @@ h3 {
   font-family: 'Gabriela', serif;
   font-size: 1.5em;
   margin-top: .5em;
+  color: whitesmoke
 }
 
 img {
@@ -56,7 +72,7 @@ p {
 }
 
 a {
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
